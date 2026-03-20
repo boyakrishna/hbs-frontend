@@ -1,0 +1,125 @@
+/* ====== header ====*/
+
+.heading{
+    
+    color: #2E8B57!important;
+    font-size: 22px;
+    font-weight: 550;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.symbol
+{
+    color: #0000FF !important;
+    text-shadow: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph
+{
+    color: hsla(13, 81%, 51%, 0.824);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between !important;
+}
+
+img
+{
+    padding: px ;
+}
+
+/* =====Home ======*/
+.highlight{
+    background-color:hsla(128, 100%, 25%, 0.954) !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.accountcircle
+{
+    color: azure;
+}
+
+/*======Hostel=====*/
+
+.selection
+{
+    padding: px;
+    background-color: hsla(133, 93%, 27%, 0.836);
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 6px;
+    color:white; 
+    border-radius: 5px;  
+}
+.prntbtn
+{
+    margin-left: 600px !important;
+    background-color: crimson !important;
+    text-align: center;
+    font-weight: 400 !important;
+    border-radius: 4px;
+    
+}
+
+/*======ApplicationForm=====*/
+.input{
+    padding:7px;
+    margin: 3px;
+}
+
+
+
+/*========Addhostel=======*/
+
+
+/*======Login======*/
+
+.login
+{
+    color: rgb(30, 16, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+  
+}
+.login h5{
+    font-size: 20px;
+    color: crimson;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login button
+{
+    padding: 6px;
+    background-color: blue;
+    border-radius: 6px;
+    margin: 20px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .input
+{
+    align-items: center !important;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 100px;
+    
+
+}
+/*.card {
+    height: auto;
+    width: auto;
+    margin: 400px;
+    border-radius: 10px;
+
+}*/
