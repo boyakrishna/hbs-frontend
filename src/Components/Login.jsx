@@ -30,7 +30,7 @@ function Login() {
     }
 
     const res = await fetch(
-      "http://localhost:8080/api/send-otp?email=" + email,
+      "https://hbs-project-backeend.onrender.com/api/send-otp?email=" + email,
       { method: "POST" }
     );
 
