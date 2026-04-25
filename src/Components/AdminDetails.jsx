@@ -15,7 +15,7 @@ useEffect(() => {
 
   if(!hostelid) return;
 
-  fetch(`http://localhost:8080/api/applications`)
+  fetch(`https://hbs-project-backeend.onrender.com/api/applications`)
     .then(res => res.json())
     .then(data => {
       setUsers(data);
