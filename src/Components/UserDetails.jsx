@@ -64,7 +64,7 @@ function UserDetails() {
           </tr>
           <tr>
             <th>Date of Birth</th>
-            <td>{user.dateofbirth}</td>
+            <td>{user.dob}</td>
           </tr>
           <tr>
             <th>Mobile</th>
