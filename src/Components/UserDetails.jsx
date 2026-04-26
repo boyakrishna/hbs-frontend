@@ -31,7 +31,7 @@ function UserDetails() {
             <td>
               {user.photo ? (
                    <img
-                    src={`https://hbs-project-backeend.onrender.com/uploads/${user.photo}`}
+                    src={user.photo}
                     width="60"
                     alt=""
                   />
@@ -44,7 +44,9 @@ function UserDetails() {
             <th>Signature</th>
             <td>
               {user.signature ? (
-                <img src={`https://hbs-project-backeend.onrender.com/uploads/${user.signature}`} width="120" alt=""/>
+                <img src={user.signature}
+                width="60"
+                    alt=""/>
               ) : (
                 "No signature uploaded"
               )}

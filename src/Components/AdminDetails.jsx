@@ -77,16 +77,20 @@ const deleteapplications = (applicationId) => {
           {users.length > 0 ? (
 
             users.map((user) => (
+              
 
               <tr key={user.applicationId}>
 
                 <td>
-                  <img
-                    src={`https://hbs-project-backeend.onrender.com/uploads/${user.photo}`}
-                    width="60"
-                    alt=""
-                  />
+               <img
+                src={user.photo}
+                width="60"
+                height="60"
+                style={{ objectFit: "cover", borderRadius: "5px" }}
+                alt="User"
+/>  
                 </td>
+                
 
                 <td>
                   {user.firstname} {user.lastname}
